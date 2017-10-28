@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue</title>
+  </head>
+  <body>
+    <div id="app">
+    	
+ 	<input v-model="message" placeholder="Ingrese la busqueda">
+	<p>Estoy buscando: {{ message }}</p>
+
+    </div>
+
+	<div id="ejemplo">
+	<buscador></buscador>
+    </div>
+
+
+    <script src="/dist/build.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+  </body>
+</html>
