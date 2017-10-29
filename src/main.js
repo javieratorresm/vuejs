@@ -2,16 +2,16 @@ new Vue({
   el: '#app',
 
   data: {
-       message: ' '
+       message: ' ',
+       origin:''
         },
 methods:{
 	post: function(){
-    this.$http.post('http://localhost/rest/books/word', {
-    	query: this.message
-    }).then (function(data){
-  	console.log(data);
-
-  });
-}}})
+    this.$http.post('http://localhost/rest/books/word', {query: this.message}).then (response => {
+  	   console.log(response.data);
+       this.origin = response.data
+    });
+  }}
+})
 
 
