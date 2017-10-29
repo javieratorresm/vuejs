@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>vue</title>
+
   </head>
   <body>
     <div id="app">
@@ -12,12 +13,14 @@
 
     </div>
 
-	<div id="ejemplo">
-	<buscador></buscador>
-    </div>
+    <div id="my_view">
+  <p>{{ origin | json }}</p>
+</div>
 
-
-    <script src="/dist/build.js"></script>
-    <script src="https://unpkg.com/vue"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.24/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.7.2/vue-resource.min.js"></script>
+ <script src="/dist/build.js"></script>
+     <script src="https://unpkg.com/vue"></script>
   </body>
 </html>
+
