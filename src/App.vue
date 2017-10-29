@@ -24,32 +24,12 @@ export default {
   name: 'app',
     data() {
       return {
-        pokemons: []
+      blog: {
+      message:''
       }
-    },
-    methods: {
-      toggleCaptched(pokemon) {
-        pokemon.captched = !pokemon.captched
-      }
-    },
-    mounted() {
-      this.$http.get('http://pokeapi.co/api/v2/pokemon/')
-        .then(response => {
-          if(response.status === 200) {
-            this.pokemons = response.data.results.map(pokemon => {
-              return {
-                name: pokemon.name,
-                captched: false
-              }
-            })
-          }
-        })
-        .catch(error => {
-          console.console(error)
-        })
     }
-  }
-</script>
+  }}
+  </script>
 
 <style>
 #app {
