@@ -1,7 +1,7 @@
 # Buscador FrontEnd
 
 ## Requisitos 
-- Sistema Operativa Ubuntu
+- Sistema Operativo Ubuntu
 - npm
 - node
 - apache2
