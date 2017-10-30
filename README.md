@@ -25,3 +25,7 @@
 - sudo npm install
 - npm run dev
 - comprobar en http://localhost/front/
+
+## Referencias
+Para mayor referencias de como funciona el Front dirigirse a la wiki del proyecto:
+http://github.com/javieratorresm/vuejs/wiki
