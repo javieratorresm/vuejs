@@ -2,6 +2,8 @@
 
 ## Requisitos 
 - Sistema Operativa Ubuntu
+- npm
+- node
 - apache2
 - La base de datos debe estar instalada y el BackEnd debe estar ejecutando
 
