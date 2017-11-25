@@ -22,6 +22,8 @@
 
 ## Ejecutar FrontEnd
 - cd vuejs
+-sudo apt-get update
+-sudo apt-get install nodejs
 - sudo npm install
 - npm run dev
 - comprobar en http://localhost/front/
