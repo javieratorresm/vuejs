@@ -23,7 +23,12 @@
             <h1>Buscador de libros</h1>
             
             <input type="text" v-model="message"/>
-            <button v-on:click.prevent ="post">Buscar</button>
+            <button v-on:click.prevent ="post">Buscar por:</button>
+            <p><input type="checkbox" v-model="checked_libro">Titulo</p>
+            <p><input type="checkbox" v-model="checked_year">Año</p>
+            <p><input type="checkbox" v-model="checked_autor">Autor</p>
+            <p><input type="checkbox" v-model="checked_editorial">Editorial</p>
+     
         
             <p> </p><p> </p>
             <div class="col-md-10 col-md-offset-1">
